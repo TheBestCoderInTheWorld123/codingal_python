@@ -18,13 +18,13 @@ class Square(Polygons):
 class Pentagon(Polygons):
     def area(self):
         pent_l = int(input("What is the length of the pentagon?\n"))
-        pent_area = 0.25*3.077*pent_l*pent_l
+        pent_area = 0.25*6.88*pent_l*pent_l
         print("Area is", pent_area)
         
 class Hexagon(Polygons):
     def area(self):
         hex_l = int(input("What is the length of the hexagon?\n"))
-        hex_area = 0.5*1.732*3*hex_l*hex_l
+        hex_area = 0.5*1.73*3*hex_l*hex_l
         print("Area is", hex_area)
 
 tri = Triangle()
