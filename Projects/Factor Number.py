@@ -1,4 +1,6 @@
-num = int(input("GIMME NUMS(one only)\n"))
+num = float(input("GIMME NUMS(one only)\n"))
+num = int(num)
+
 if(num <= 0):
     print("GET OUT OF HERE PLEASE!!!")
 else:
