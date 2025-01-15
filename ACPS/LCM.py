@@ -8,9 +8,6 @@ else:
     big_num = num2
     smoll_num = num1
 
-og_num1 = num1
-og_num2 = num2
-
 while(smoll_num):
     temp = smoll_num
     smoll_num = big_num % smoll_num
@@ -18,6 +15,6 @@ while(smoll_num):
 
 hcf = big_num
 
-lcm = (og_num1 * og_num2) // hcf
+lcm = (num1 * num2) // hcf
 
 print(f"LCM of {num1} and {num2} is", lcm)
