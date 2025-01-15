@@ -1,0 +1,5 @@
+First Loop: O(n)
+Second Loop: log(n)
+Third Loop: constant
+
+Total Time Complexity: O(n) + log(n) + constant
